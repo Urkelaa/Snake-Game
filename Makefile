@@ -2,7 +2,7 @@
 CC = gcc
 
 # Compiler flags
-CFLAGS = -Wall -g -Iinclude
+CFLAGS = -Wall -g -Iinclude  # The -Iinclude flag already ensures the 'include' directory is searched for header files.
 
 # Source files (all in the /src directory)
 SRCS = src/main.c src/game.c src/menu.c src/utils.c
