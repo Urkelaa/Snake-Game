@@ -41,7 +41,7 @@ void hadle_menu_input(){
     {
     case 1:
         /* code */
-        void intialize_game();
+        intialize_game();
         break;
     case 2:
         /* code */
