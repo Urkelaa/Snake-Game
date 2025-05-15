@@ -13,7 +13,6 @@ int main() {
 
     while (program_running) {
         show_menu();
-        hadle_menu_input();
     }
     
     return 0;

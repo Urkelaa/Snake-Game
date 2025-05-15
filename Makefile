@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -g -Iinclude  # The -Iinclude flag already ensures the 'include' directory is searched for header files.
 
 # Source files (all in the /src directory)
-SRCS = src/main.c src/game.c src/menu.c src/utils.c
+SRCS = src/main.c src/game.c src/menu.c src/utils.c  # utils.c is already included
 
 # Object files (generated from the source files)
 OBJS = $(SRCS:.c=.o)
