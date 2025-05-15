@@ -1,7 +1,7 @@
 #include "game.h"
 #define WIDTH 20
 #define HEIGHT 20
-
+//test commit
 typedef struct {
     int x, y;
 } Koord;
